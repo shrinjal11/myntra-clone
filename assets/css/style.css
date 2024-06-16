@@ -1,0 +1,16 @@
+.navbar-nav .nav-item .dropdown-menu {
+    display: none;
+}
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.text-sup{
+    color: rgb(222, 23, 145);
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+}
