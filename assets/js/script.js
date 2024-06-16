@@ -28,15 +28,3 @@ items.forEach(item=>{
 })
 itemContainer.innerHTML=innerHTML;
 
-// Add to cart section starts
-
-let cartItems=[];
-function addToCart(itemId){
-cartItems.push(itemId)
-cartIcon()
-}
-
-function cartIcon(){
-    let cartNumber=document.getElementById('cart-number');
-    cartNumber.innerText=cartItems.length;
-}
